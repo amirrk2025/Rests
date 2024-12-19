@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>چک‌لیست استراحت‌ها</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>چک‌لیست استراحت‌های تو</h1>
+
+    <div class="section">
+        <h2>استراحت‌های کوتاه</h2>
+        <ul id="short-breaks">
+            <!-- لیست استراحت‌های کوتاه اینجا قرار می‌گیرد -->
+        </ul>
+        <div class="add-task">
+            <input type="text" id="short-break-input" placeholder="اضافه کردن استراحت جدید">
+            <button onclick="addTask('short-break-input', 'short-breaks')">اضافه کن</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>استراحت‌های متوسط</h2>
+        <ul id="medium-breaks">
+            <!-- لیست استراحت‌های متوسط اینجا قرار می‌گیرد -->
+        </ul>
+        <div class="add-task">
+            <input type="text" id="medium-break-input" placeholder="اضافه کردن استراحت جدید">
+            <button onclick="addTask('medium-break-input', 'medium-breaks')">اضافه کن</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>استراحت‌های بلند</h2>
+        <ul id="long-breaks">
+            <!-- لیست استراحت‌های بلند اینجا قرار می‌گیرد -->
+        </ul>
+        <div class="add-task">
+            <input type="text" id="long-break-input" placeholder="اضافه کردن استراحت جدید">
+            <button onclick="addTask('long-break-input', 'long-breaks')">اضافه کن</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
